@@ -1,10 +1,10 @@
-import Button from "react-bootstrap/Button";
-import './App.css';
+import React from 'react';
+import NavBar from './components/NavBar.js'; // Adjust the path based on the actual file structure
 
 function App() {
   return (
     <div className="App">
-      <Button variant="primary">Primary</Button>
+      <NavBar />
     </div>
   );
 }
