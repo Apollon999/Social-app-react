@@ -1,9 +1,9 @@
-import React from 'react';
-import NavBar from './components/NavBar.js'; // Adjust the path based on the actual file structure
+import styles from "./App.module.css";
+import NavBar from "./components/NavBar.js";
 
 function App() {
   return (
-    <div className="App">
+    <div className={styles.App}>
       <NavBar />
     </div>
   );
